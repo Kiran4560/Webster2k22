@@ -1,0 +1,143 @@
+
+body{
+  background-image: url(Img\bground.jpg);
+}
+.left{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    display: inline-block;
+    position: absolute;
+    left: 20px;
+    top: 10px;
+}
+.left img{
+    width: 120px;
+    filter: invert(100%);
+}
+.left div{
+    font-size: 20px;
+    text-align: center;
+    line-height: 20px;
+}.mid {
+    display: block;
+    width: 70%;
+    margin: 10px auto;
+    top: 20px;
+    font-size:10px;
+  
+}
+
+.right {
+    position: absolute;
+    font-size:18px ;
+    right:5px;
+    top: 20px;
+    display: inline-block;
+    font-family: Arial, Helvetica, sans-serif;    
+}  .navbar {
+  display: inline-block;
+}
+
+.navbar li {
+  display: inline-block;
+  font-size:15px;
+}
+
+.navbar li a {
+  color: rgb(13, 12, 12);
+  text-decoration: none;
+  padding: 20px 20px;
+
+}
+
+.navbar li a:hover,
+.navbar li a.active {
+  text-decoration: underline;
+  color: grey;
+
+}
+.btn {
+  font-family: 'Baloo Bhai', cursive;
+  margin: 0px 9px;
+  background-color: black;
+  color: white;
+  padding: 4px 14px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: rgb(31, 30, 30);
+}
+
+.container {
+  border: 2px solid white;
+  margin: 106px 80px;
+  padding: 75px;
+  width: 33%;
+  border-radius: 28px;
+}
+
+.form-group input {
+  font-family: 'Baloo Bhai', cursive;
+  text-align: center;
+  display: block;
+  width: 200px;
+  padding: 1px;
+  border: 2px solid black;
+  margin: 11px auto;
+  font-size: 18px;
+  border-radius: 8px;
+}
+
+.container H3 {
+  text-align: center;
+  left: 25px;
+  margin-left:25px ;
+}
+
+.container button {
+  display: block;
+  width: 74%;
+  margin:5px auto;
+  text-align:center ;
+  /*background-color: rgb(75, 197, 75);*/
+
+}
+.cancelbtn, .signupbtn {
+  float: center;
+  width:100%;
+  
+
+}
+button {
+  background-color: #04AA6D;
+  color: white;
+  padding: 10px 10px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+button:hover {
+  opacity:1;
+}
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+@media screen and (max-width:300px) {
+  .cancelbtn, .signupbtn {
+    width: 100%;
+  }
+}
+
+
+
+

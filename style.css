@@ -1,6 +1,10 @@
 
 body{
-  background-image: url(Img\bground.jpg);
+  background-image: url("https://cupidslight.com/wp-content/uploads/2022/05/hand-holding-sunset-1.jpg");
+  background-position: 1000px 1000px,1000px,1000px;
+  background-size: 1000px 1000px;
+  margin:10px;
+  padding: 10px;
 }
 .left{
     font-family: Arial, Helvetica, sans-serif;
@@ -11,8 +15,8 @@ body{
     top: 10px;
 }
 .left img{
-    width: 120px;
-    filter: invert(100%);
+    width: 100px;
+   /* filter: invert(100%);*/
 }
 .left div{
     font-size: 20px;
@@ -72,9 +76,9 @@ body{
 }
 
 .container {
-  border: 2px solid white;
-  margin: 106px 80px;
-  padding: 75px;
+  border: 2px solid rgb(14, 13, 13);
+  margin: 90px 90px;
+  padding: 40px;
   width: 33%;
   border-radius: 28px;
 }
@@ -93,13 +97,13 @@ body{
 
 .container H3 {
   text-align: center;
-  left: 25px;
-  margin-left:25px ;
+  left: 35px;
+  margin-left:20px ;
 }
 
 .container button {
   display: block;
-  width: 74%;
+  width: 50%;
   margin:5px auto;
   text-align:center ;
   /*background-color: rgb(75, 197, 75);*/
@@ -114,7 +118,7 @@ body{
 button {
   background-color: #04AA6D;
   color: white;
-  padding: 10px 10px;
+  padding: 8px 8px;
   margin: 8px 0;
   border: none;
   cursor: pointer;
@@ -125,7 +129,7 @@ button:hover {
   opacity:1;
 }
 .cancelbtn {
-  padding: 14px 20px;
+  padding: 8px 8px;
   background-color: #f44336;
 }.clearfix::after {
   content: "";
